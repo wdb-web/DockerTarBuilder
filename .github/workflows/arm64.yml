@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: '请填写docker镜像名称 多个用英文逗号分开'
+        description: 'chambm/pwiz-skyline-i-agree-to-the-vendor-licenses:latest'
         required: true
         default: 'alpine:latest,busybox:stable-glibc'  # 设置默认的 Docker 镜像列表
 
